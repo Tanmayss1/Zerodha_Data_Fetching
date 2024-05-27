@@ -5,7 +5,8 @@ import numpy as np
 from datetime import datetime
 
 # URL and parameters
-token = 256265
+'''remove # from token in below line''' 
+# token = 256265
 timeframe = "week"
 
 # Start date
@@ -15,7 +16,7 @@ sdt = datetime(year=2019, month=2, day=2)
 edt = datetime.now()
 
 # Replace with your actual enctoken
-enctoken = "YnzXn6gNaNgUYgVp/yEXh5VS96y7zeah6xRhJuJIjzuhbmA+XJkIZW8ATUj5BqKdPxq2fMQOi9CC/PYOV9J2cL3lxoPEGqVet+89NkaXKrQUb1YFMZYkzA=="
+enctoken = ""
 
 header = {
     "Authorization": f"enctoken {enctoken}"
