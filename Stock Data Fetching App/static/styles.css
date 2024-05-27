@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.moneycontrol.com%2Fnews%2Fbusiness%2Fmarkets%2Fstock-market-today-top-10-things-to-know-before-the-market-opens-292-12723270.html&psig=AOvVaw2sDiwbxzxhUEUIGg6_uyRm&ust=1716907331582000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCID-rK2IroYDFQAAAAAdAAAAABAE') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
